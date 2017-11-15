@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2181D3991FBC2C570069C52C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2181D3981FBC2C570069C52C /* String.swift */; };
+		21EF68091FBC48F600BAE9A3 /* MQAlertImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF68081FBC48F600BAE9A3 /* MQAlertImageView.swift */; };
 		5068CF4C744CAF2CFBCC56CB5FF922FA /* MQAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805246ADF3E4A6F9E0883162BA70C888 /* MQAlertProtocol.swift */; };
 		71E0FAA4DF777970CD0735FFFB155E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		79025B769056CDDBEED16FCCEE3A61EC /* Pods-MQAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7021C0A79B150A0DECE99857467C86B /* Pods-MQAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 		0FCEA1F403AADFDB98B6AF605B8C1BE6 /* Pods-MQAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MQAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		199B37B80C73E7FFC7BD569031F5FEE8 /* Pods-MQAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MQAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2181D3981FBC2C570069C52C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		21EF68081FBC48F600BAE9A3 /* MQAlertImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQAlertImageView.swift; sourceTree = "<group>"; };
 		2C7772B3713DDE1264A7FA789AB00829 /* MQAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQAlertView-umbrella.h"; sourceTree = "<group>"; };
 		3F38F712ACCC11DAE67C6F45C9F528E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41D353B8174622242AC3AB01ECAEB151 /* Pods-MQAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MQAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		9921700526072F87D6BF4A46558021F8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				21EF68081FBC48F600BAE9A3 /* MQAlertImageView.swift */,
 				805246ADF3E4A6F9E0883162BA70C888 /* MQAlertProtocol.swift */,
 				74B83CBAF8A59C3F7425AFBCECF394B9 /* MQAlertView.swift */,
 				2181D3981FBC2C570069C52C /* String.swift */,
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5068CF4C744CAF2CFBCC56CB5FF922FA /* MQAlertProtocol.swift in Sources */,
+				21EF68091FBC48F600BAE9A3 /* MQAlertImageView.swift in Sources */,
 				945C7F90603A50272A328224AC885F6B /* MQAlertView.swift in Sources */,
 				2181D3991FBC2C570069C52C /* String.swift in Sources */,
 				B835BB6BE04FDACE35250771E8DDFCD6 /* MQAlertView-dummy.m in Sources */,

@@ -9,6 +9,10 @@
 import MQAlertView
 
 extension MQAlertView {
+    
+    /// You can set the control properties here
+    ///
+    /// - Parameter event: btnDoneClick
     open func setupViews(event: @escaping () -> Void) {
         getBtnCancel().setTitleColor(.gray, for: .normal)
         getBtnCancel().setTitle("cancel", for: .normal)

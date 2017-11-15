@@ -11,7 +11,7 @@ import MQAlertView
 
 class ViewController: UIViewController {
 
-    var dataSource: [String] = ["0","1","2","3","4"] {
+    var dataSource: [String] = ["message","input","image","message clearBackground"] {
         didSet {
             tableView.reloadData()
         }
@@ -58,19 +58,16 @@ extension ViewController: UITableViewDelegate {
             let al = MQAlertView(title: "title",
                                  placeholder: "placeholder",
                                  btnDoneTitle: "certain")
-            al.setupViews {
-                print("btnDone click")
+            al.appearFrom = .bottom
+            al.setupViews { [weak self] in
+                let text = al.getTextField().text ?? ""
+                self?.dataSource.append(text)
             }
             al.show(animated: true)
         case 2:
-            let al = MQAlertView(title: "title",
-                                 message: "message",
-                                 btnDoneTitle: "certain")
-            al.appearFrom = .bottom
-            al.setupViews {
-                print("btnDone click")
-            }
-            al.show(animated: true)
+            let al = MQAlertImageView()
+            al.getImageView().image = UIImage(named: "1")
+            al.show(animated: false)
         case 3:
             let al = MQAlertView(title: "title",
                                  message: "message",
@@ -78,19 +75,6 @@ extension ViewController: UITableViewDelegate {
             al.clearBackground = true
             al.setupViews {
                 print("btnDone click")
-            }
-            al.show(animated: false)
-            
-        case 4:
-            let al = MQAlertView(title: "title",
-                                 alertType: .input,
-                                 message: "placeholder",
-                                 btnDoneTitle: "certain")
-            
-            al.setupViews { [weak self] in
-                print("btnDone click")
-                let text = al.getTextField().text ?? ""
-                self?.dataSource.append(text)
             }
             al.show(animated: false)
         default:
