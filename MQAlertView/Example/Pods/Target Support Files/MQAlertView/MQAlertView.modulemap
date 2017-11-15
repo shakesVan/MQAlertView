@@ -1,0 +1,6 @@
+framework module MQAlertView {
+  umbrella header "MQAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
