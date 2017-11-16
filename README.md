@@ -1,6 +1,6 @@
 # MQAlertView
 
-[![CI Status](http://img.shields.io/travis/892895471@qq.com/MQAlertView.svg?style=flat)](https://travis-ci.org/892895471@qq.com/MQAlertView)
+[![CI Status](http://img.shields.io/travis/892895471@qq.com/MQAlertView.svg?style=flat)](https://travis-ci.org/xiaoyao250/MQAlertView/MQAlertView)
 [![Version](https://img.shields.io/cocoapods/v/MQAlertView.svg?style=flat)](http://cocoapods.org/pods/MQAlertView)
 
 ## Example
