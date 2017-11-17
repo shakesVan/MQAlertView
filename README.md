@@ -1,23 +1,30 @@
 # MQAlertView
-
-[![CI Status](http://img.shields.io/travis/892895471@qq.com/MQAlertView.svg?style=flat)](https://travis-ci.org/xiaoyao250/MQAlertView)
-[![Version](https://img.shields.io/cocoapods/v/MQAlertView.svg?style=flat)](http://cocoapods.org/pods/MQAlertView)
-
+A simple customizable alertView that displays text, input boxes and pictures
+![Alt text](./Example/MQAlertView/MQAlertViewGif.png)
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
 ## Installation
-
-MQAlertView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'MQAlertView'
+### simple way to show alert view
+show text
 ```
-
+let al = MQAlertView(title: "title",
+placeholder: "placeholder",
+btnDoneTitle: "certain")
+al.show(animated: true)
+```
+show image
+```
+let al = MQAlertImageView()
+al.getImageView().image = UIImage(named: "1")
+al.show(animated: false)
+```
+set Properties
+```
+let al = MQAlertImageView()
+al.getBtnCancel().setTitleColor(.gray, for: .normal)
+al.getBtnCancel().setTitle("cancel", for: .normal)
+al.show(animated: false)
+```
 ## Author
 
 892895471@qq.com

@@ -11,7 +11,7 @@ import MQAlertView
 
 class ViewController: UIViewController {
 
-    var dataSource: [String] = ["message","input","image","message clearBackground"] {
+    var dataSource: [String] = ["message","input","image","clearBackground"] {
         didSet {
             tableView.reloadData()
         }
@@ -29,11 +29,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "MQAlertView"
         view.addSubview(tableView)
         tableView.frame = view.frame
         tableView.frame.origin.y = 64
         view.backgroundColor = .white
-        tableView.backgroundColor = .gray
     }
 }
 
