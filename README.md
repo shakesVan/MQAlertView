@@ -2,8 +2,6 @@
 A simple customizable alertView that displays text, input boxes and pictures
 ![Alt text](./Example/MQAlertView/MQAlertViewGif.png)
 ## Example
-
-## Installation
 ### simple way to show alert view
 show text
 ```
@@ -18,7 +16,7 @@ let al = MQAlertImageView()
 al.getImageView().image = UIImage(named: "1")
 al.show(animated: false)
 ```
-set Properties
+set properties
 ```
 let al = MQAlertImageView()
 al.getBtnCancel().setTitleColor(.gray, for: .normal)
