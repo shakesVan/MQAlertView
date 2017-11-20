@@ -1,6 +1,13 @@
 # MQAlertView
 A simple customizable alertView that displays text, input boxes and pictures
 ![Alt text](./Example/MQAlertView/MQAlertViewGif.png)
+##Installation
+###using Carthage
+Cartfile
+`github "xiaoyao250/MQAlertView"`
+input Framework
+Target -> Build Setting  ->  Framework Search Path add this:
+`$(SRCROOT)/Carthage/Build/iOS`
 ## Example
 ### simple way to show alert view
 show text
