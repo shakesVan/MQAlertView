@@ -1,6 +1,6 @@
 # MQAlertView
 A simple customizable alertView that displays text, input boxes and pictures
-![AlterGif](./Example/MQAlertView/MQAlertViewGif.png)
+![AlterGif](./MQAlertViewGif.png)
 
 ## Installation
 ### using Carthage
