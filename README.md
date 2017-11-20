@@ -1,8 +1,8 @@
 # MQAlertView
 A simple customizable alertView that displays text, input boxes and pictures
 ![Alt text](./Example/MQAlertView/MQAlertViewGif.png)
-##Installation
-###using Carthage
+## Installation
+### using Carthage
 Cartfile
 `github "xiaoyao250/MQAlertView"`
 input Framework
