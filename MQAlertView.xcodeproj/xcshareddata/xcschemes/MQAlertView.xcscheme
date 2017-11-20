@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MQAlertView_Example.app"
-               BlueprintName = "MQAlertView_Example"
-               ReferencedContainer = "container:MQAlertView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MQAlertView_Tests.xctest"
-               BlueprintName = "MQAlertView_Tests"
+               BlueprintIdentifier = "21A8F26C1FC28886002B7F19"
+               BuildableName = "MQAlertView.framework"
+               BlueprintName = "MQAlertView"
                ReferencedContainer = "container:MQAlertView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MQAlertView_Tests.xctest"
-               BlueprintName = "MQAlertView_Tests"
+               BlueprintIdentifier = "21A8F2751FC28886002B7F19"
+               BuildableName = "MQAlertViewTests.xctest"
+               BlueprintName = "MQAlertViewTests"
                ReferencedContainer = "container:MQAlertView.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MQAlertView_Example.app"
-            BlueprintName = "MQAlertView_Example"
+            BlueprintIdentifier = "21A8F26C1FC28886002B7F19"
+            BuildableName = "MQAlertView.framework"
+            BlueprintName = "MQAlertView"
             ReferencedContainer = "container:MQAlertView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,7 +53,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -77,16 +63,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MQAlertView_Example.app"
-            BlueprintName = "MQAlertView_Example"
+            BlueprintIdentifier = "21A8F26C1FC28886002B7F19"
+            BuildableName = "MQAlertView.framework"
+            BlueprintName = "MQAlertView"
             ReferencedContainer = "container:MQAlertView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -96,16 +81,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MQAlertView_Example.app"
-            BlueprintName = "MQAlertView_Example"
+            BlueprintIdentifier = "21A8F26C1FC28886002B7F19"
+            BuildableName = "MQAlertView.framework"
+            BlueprintName = "MQAlertView"
             ReferencedContainer = "container:MQAlertView.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
