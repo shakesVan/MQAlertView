@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		218B21B12061EFB600299070 /* 程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 218B21B02061EFB600299070 /* 程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf */; };
 		21A8F2771FC28886002B7F19 /* MQAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A8F26D1FC28886002B7F19 /* MQAlertView.framework */; };
 		21A8F27C1FC28886002B7F19 /* MQAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A8F27B1FC28886002B7F19 /* MQAlertViewTests.swift */; };
 		21A8F27E1FC28886002B7F19 /* MQAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A8F2701FC28886002B7F19 /* MQAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		218B21B02061EFB600299070 /* 程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf"; sourceTree = "<group>"; };
 		21A8F26D1FC28886002B7F19 /* MQAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MQAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A8F2701FC28886002B7F19 /* MQAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQAlertView.h; sourceTree = "<group>"; };
 		21A8F2711FC28886002B7F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		21A8F26F1FC28886002B7F19 /* MQAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				218B21B02061EFB600299070 /* 程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf */,
 				21A8F2891FC2890C002B7F19 /* MQAlertImageView.swift */,
 				21A8F2881FC2890B002B7F19 /* MQAlertProtocol.swift */,
 				21A8F28A1FC2890C002B7F19 /* MQAlertView.swift */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218B21B12061EFB600299070 /* 程序是怎样跑起来的_PDF电子书下载+带书签目录+高清完整版.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
